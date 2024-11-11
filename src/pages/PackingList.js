@@ -24,7 +24,7 @@ export default function PackingList({
   return (
     <div className="list">
       <ul>
-        {sortedItems.map((item) => (
+        {sortedItems?.map((item) => (
           <Item
             item={item}
             onDeleteItem={onDeleteItem}
